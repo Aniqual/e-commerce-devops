@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-  res.send("🚀 DevOps App Running on EC2!");
+  res.send("🚀 DevOps App Running successfully on EC2!");
 });
 
 app.listen(3000, () => {
